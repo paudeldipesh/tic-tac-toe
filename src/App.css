@@ -1,0 +1,30 @@
+.app {
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+button {
+  border: 1px solid #ccc;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 44px;
+  background: #c1f2ff;
+  border-radius: 7px;
+}
+
+button:hover {
+  color: #dcfff3;
+  background: #333;
+}
+
+@media screen and (max-width: 550px) {
+  main {
+    padding: 20px;
+  }
+}
